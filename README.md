@@ -28,7 +28,7 @@ fev-wet03/
 │ └─ HW3.pdf # my report
 ├─ src/
 │ ├─ HW3ex1.cc # my implementation (uses HCM + MiniSat API)
-│ └─ minisat_api_example.cpp # MiniSat API demo (MIT-licensed example) [optional]
+│ └─ minisat_api_example.cpp # MiniSat API demo (MIT-licensed example)
 ├─ examples/
 │ ├─ example.cnf.txt # tiny DIMACS demo
 │ └─ (place given verilog benchmarks here if you have rights)
