@@ -1,3 +1,6 @@
+# ----------------------------
+# Standard C/C++ ignores
+# ----------------------------
 # Prerequisites
 *.d
 
@@ -16,6 +19,7 @@
 
 # Debugger Files
 *.pdb
+*.dwo
 
 # Compiled Dynamic libraries
 *.so
@@ -37,5 +41,20 @@
 *.out
 *.app
 
-# debug information files
-*.dwo
+# ----------------------------
+# Project-specific ignores
+# ----------------------------
+
+# Build artifacts
+*.dSYM/
+build/
+bin/
+
+# Generated CNF / logs
+*.cnf
+*.rpt
+*.log
+
+# Example/benchmark payloads (keep repo lean)
+examples/*.v
+examples/*.zip
