@@ -31,7 +31,7 @@ fev-wet03/
 │ └─ minisat_api_example.cpp # MiniSat API demo (MIT-licensed example)
 ├─ examples/
 │ ├─ example.cnf.txt # tiny DIMACS demo
-│ └─ (place given verilog benchmarks here if you have rights)
+│ └─ place course benchmark files if you have access (optional)
 ├─ tools/
 │ └─ Makefile # build (uses system HCM/MiniSat includes/libs)
 ├─ .gitignore
